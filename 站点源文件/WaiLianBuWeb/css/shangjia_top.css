@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	width:100%;
+	margin:0;
+	
+}
+#top {
+	width:100%;
+	height:120px;
+	background-image:url(../img/top.png);
+	
+}
+
+#top_left {
+	width:260px;
+	height:120px;
+	padding:0 14px;
+	float:left;
+}
+#top_middle {
+	width:900px;
+	height:120px;
+	float:left;
+}
+#top_right {
+	height:150px;
+	float:left;
+}
+#logout {
+	width:40px;
+	height:35px;
+	line-height:35px;
+	color:#CCC;
+	margin-top:46px;
+	margin-left:64px;
+	cursor:pointer;
+	float:right;
+}
+#logout a:link,#logout a:visited {
+	color:#CCC;
+	text-decoration:none;
+}
+#logout a:hover {
+	color:#FFF;
+	text-decoration:none;
+}
+#mainHeader {
+	width:800px;
+	height:60px;
+	color:#FFF;
+	font-size:50px;
+	padding:16px 0 0 80px;
+	letter-spacing:10px;
+}
+#viceHeader {
+	width:800px;
+	height:20px;
+	color:#FFF;
+	font-size:20px;
+	padding-left:84px;
+	letter-spacing:2px;
+}

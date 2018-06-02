@@ -1,0 +1,125 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+	font-family:fangzhenglanting;
+	src:url(../lib/fangzhenglanting/fangzhenglanting.TTF);
+}
+body {
+	width:100%;
+	height:100%;
+	font-family:"fangzhenglanting";
+	background-image:url(../img/bg1.jpg);
+	margin:0;
+}
+#left {
+	width:60%;
+	height:100%;
+	float:left;
+	position:fixed;
+	background-color:rgba(0,0,0,.5);
+}
+#right {
+	width:40%;
+	height:800px;
+	float:right;
+	background-color:rgba(0,0,0,.5);
+	position:relative;
+}
+#login_box {
+	width:500px;
+	height:500px;
+	margin:0 auto;
+}
+#logo_ico {
+	width:310px;
+	height:10px;
+	margin:14px auto;
+}
+.logo_list {
+	width:444px;
+	height:43px;
+	padding-top:20px;
+	line-height:38px;
+	margin-left:63px;
+}
+#chose {
+	width:310px;
+	height:43px;
+	padding-top:20px;
+	line-height:38px;
+	margin:0 auto;
+}
+.min_ico {
+	width:64px;
+	height:40px;
+	float:left;
+	color:#FFF;
+	text-align:center;
+	background-color:#ccc;
+	padding:1px 16px;
+}
+#txtusername,#txtboss,#txtaddress,#txtphonenum,#txtqq {
+	padding:2px 12px;
+}
+.Hui-iconfont {
+	font-size:36px;
+	color:#00a7f2;
+}
+#password,#username {
+	width:260px;
+	height:38px;
+	border:none;
+	float:left;
+	outline:none;
+}
+#select_area {
+	cursor:pointer;
+	width:260px;
+	height:38px;
+	border:none;
+	float:left;
+	outline:none;
+	color:#999;
+}
+#select_area:visited,#select_area:hover {
+	cursor:pointer;
+	width:260px;
+	height:38px;
+	border:none;
+	float:left;
+	outline:none;
+	color:#000;
+}
+
+#logo_btn {
+	width:358px;
+	height:43px;
+	margin-bottom:26px;
+	line-height:38px;
+	margin:0 63px;
+	margin-top:40px;
+	
+}
+#btn {
+	width: 358px;
+	height: 46px;
+	border: none;
+	background-color: #00a7f2;
+	color: #FFF;
+	margin: 10px auto;
+	font-size: 18px;
+	cursor: auto;
+	cursor: pointer;
+}
+#yanzheng {
+	width:220px;
+	height:38px;
+	border:none;
+	float:left;
+	outline:none;
+}
+#yanzheng_value {
+	width:40px;
+	height:38px;
+}
+	

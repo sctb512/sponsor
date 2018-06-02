@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	width:100%;
+	margin:0;
+	
+}
+#top {
+	width:100%;
+	height:120px;
+	background-image:url(../img/top.png);
+	
+}
+#search {
+	width:100px;
+	height:35px;
+	float:right;
+	margin-top:35px;
+	margin-right:15px;
+	border:#FFF solid 1px;
+	cursor:pointer;
+	color:#FFF;
+	padding:10px 20px;
+	line-height:35px;
+	
+}
+#logout {
+	width:40px;
+	height:35px;
+	line-height:35px;
+	color:#CCC;
+	margin-top:46px;
+	margin-left:4px;
+	cursor:pointer;
+	float:right;
+}
+#logout a:link,#logout a:visited {
+	color:#CCC;
+	text-decoration:none;
+}
+#logout a:hover {
+	color:#FFF;
+	text-decoration:none;
+}
+#ser_log {
+	width:30px;
+	height:30px;
+	float:left;
+	font-size:24px;
+	text-align:center;
+}
+#ser_wenzi {
+	width:70px;
+	height:20px;
+	font-size:24px;
+	float:left;
+	text-align:center;
+}
+#top_left {
+	width:220px;
+	height:120px;
+	padding:0 14px;
+	float:left;
+}
+#top_middle {
+	width:900px;
+	height:120px;
+	float:left;
+}
+#mainHeader {
+	width:800px;
+	height:60px;
+	color:#FFF;
+	font-size:50px;
+	padding:16px 0 0 80px;
+	letter-spacing:10px;
+}
+#viceHeader {
+	width:800px;
+	height:20px;
+	color:#FFF;
+	font-size:20px;
+	padding-left:84px;
+	letter-spacing:2px;
+}
+#top_right {
+	height:150px;
+	float:left;
+}
+#ser_log:hover {
+	color:#00a7f2;
+}

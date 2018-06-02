@@ -1,0 +1,94 @@
+@charset "utf-8";
+/* CSS Document */
+html {
+	padding:0;
+	margin:0;
+}
+body {
+	padding:0;
+	margin:0;
+}
+.container {
+	width:100%;
+	height:100%;
+}
+
+.grids{
+	width:980px;
+	height:500px;
+	margin:10px auto;
+}
+.onegrids {
+	width:980px;
+	height:300px;
+}
+.grid {
+	width:250px;
+	height:200px;
+	background-color:#FFF;
+	float:left;
+	margin:28px 36px 0;
+	overflow:hidden;
+	border: solid 2px #333333;
+	opacity:0.8;
+	
+}
+.info{
+	width:250px;
+	height:400px;
+	top:0;
+	padding-top:28px;
+    text-align: center;
+	position:relative;
+	transition: top 0.5s;	
+	-webkit-transition: top 0.5s;	    
+    -moz-transition: all 0.5s;
+
+}
+.fa{
+	width:250px;
+	height:40px;
+    color: #284775;
+    font-size: 2em;
+}
+h4{
+	width:250px;
+	height:20px;
+    color: #000;
+    font-size: 1.1em;
+}
+
+
+p{
+	width:250px;
+	height:77px;
+    color: #8c8c8c;
+    font-size: .9em;
+    margin: 0;
+    line-height: 1.8em;
+}
+.caption {
+	width:250px;
+	height:240px;
+	background-color:#284775;
+    text-align: center;
+	padding-top:60px;
+    
+}
+
+.up {
+	width:250px;
+	height:40px;
+	color:#FFF;
+	font-size: 3em;
+	position:relative;
+}
+
+.info:hover{
+    top: -115%;
+	cursor:pointer;
+}
+a:link {
+	text-decoration:none;
+}
+/*-- //about --*/
